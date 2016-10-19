@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta charset="UTF-8">
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+ </head>
+<body>
+  <script>
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = 'project.css' + '?v=' + Math.random();
+    document.body.appendChild(link);
+  </script>
+  <!--Do not change anything above -->
+  <!--Styles for optional hover hint-->
+  <style>
+    .hint {
+      filter: blur(2px);
+      -webkit-filter: blur(2px);
+    }
+
+    .hint:hover {
+      filter: blur(0);
+      -webkit-filter: blur(0);
+    }
+  </style>
+  <!--Formatting below is an example, but can be altered for your specific project needs-->
+   <body>
+      <h2>Project Title</h2>
+      <h3>Lesson Name</h3>
+      <p>Lesson instructions go here.</p>
+      <!--Student step by step directions-->
+      <p>In your text editor under the line that starts with “Step #”:</p>
+      <input type="checkbox">Instruction #1 Use the <code>print</code> method.<br>
+      <input type="checkbox">Instruction #2 <br>
+      <input type="checkbox">Instruction #2 <br>
+      <input type="checkbox">Hit Test Code </p>
+      <p class="hint">**Hint** Hover for a hint.</p>
+   </body>
+</html>
