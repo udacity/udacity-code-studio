@@ -1,8 +1,10 @@
 # Udacity Code Studio Starter Files
 
-+ codestudio_template.html- Template for instructions panel for Project lessons. 
-+ project.css- Global CSS for the instructions panel that are loaded in the Workbench. 
-+ sample_python_test.py- Example Python test file
++ template.html- Template for instructions panel for Project lessons. 
++ project.css- Global CSS for the instructions panel that are loaded in the workbench. 
++ python_test.py-  Python test file example
++ sample_instruction.html- Instructions example for workshop 
++ studentfile.py - Student file example for workshop
 
 ## Got Questions?
 
