@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>Module 1 Project</title>
+   <meta charset="UTF-8">
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+ </head>
+<body>
+  <script>
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = 'project.css' + '?v=' + Math.random();
+    document.body.appendChild(link);
+  </script>
+   <body>
+     <h2>Project 3: Data Structures</h2>
+     <h3>Intro</h3>
+     <p>With our new knowledge of data structures like lists and dictionaries, we’ve been hired by the local sporting goods store—Adventure City—to build a program that stores valuable inventory and employee information.</p>
+     <p>Let’s get started!</p>
+      <h3>Step 1</h3>
+      <p>Adventure City has the following items in their inventory:
+         <ul>
+            <li>10 backpacks</li>
+            <li>20 energybars</li>
+            <li>7 sunglasses</li>
+         </ul>
+      </p>
+      <p>In your text editor under the line that starts with “Step 1”:</p>
+        <input type="checkbox"> Create a new dictionary called <code>stock</code>.<br>
+        <input type="checkbox"> Add key-value pairs for backpacks, energybars, and sunglasses which map each item name (as a string) to the amount in stock (as integers).<br>
+        <input type="checkbox"> Print <code>stock</code>.<br>
+        <input type="checkbox"> Click "Test Code"<br>
+   </body>
+</html>
